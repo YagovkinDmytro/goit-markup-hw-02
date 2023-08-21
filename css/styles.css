@@ -10,10 +10,11 @@ body {
   color: var(--main-color);
   background: var(--main-bg-cl);
 }
-
+ul {
+  list-style: none;
+}
 .link {
   text-decoration: none;
-  list-style: none;
 }
 
 h1,
@@ -127,8 +128,52 @@ button {
   line-height: 1.5;
   letter-spacing: 0.03em;
 }
+/* Main section 1 */
+.benefits-title-point {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.2em;
+}
 
+/* Main section 2 */
+.product-title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* Main section 3 */
+.team-title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-title-name {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.2em;
+}
+/* Portfolio section */
+.portfolio-title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.2em;
+}
 /* Footer */
 .footer {
   background-color: var(--navyblue, #2e2f42);
+}
+.text-footer {
+  color: var(--cloud, #f4f4fd);
 }
