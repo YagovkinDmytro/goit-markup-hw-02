@@ -10,7 +10,10 @@ body {
   color: var(--main-color);
   background: var(--main-bg-cl);
 }
-a {
+.link {
+  text-decoration: none;
+}
+.a {
   color: currentColor;
   text-decoration: none;
 }
@@ -65,6 +68,9 @@ button {
 }
 .logo-part {
   color: var(--navyblue, #2e2f42);
+}
+.logo-part-footer {
+  color: var(--cloud, #f4f4fd);
 }
 /* Nav */
 .info-page {
