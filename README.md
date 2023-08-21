@@ -1,3 +1,3 @@
-# goit-markup-hw-01
+# goit-markup-hw-02
 
-Home work MSC (12.08.2023)
+Home work MSC (21.08.2023)
