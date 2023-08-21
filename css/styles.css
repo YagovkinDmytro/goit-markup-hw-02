@@ -1,5 +1,86 @@
-/**
-  |============================
-  | 
-  |============================
-*/
+/* Base styles */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background: #fff;
+}
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+h1,
+h3 {
+  color: var(--navyblue, #2e2f42);
+}
+.text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Top Line */
+
+.info-logo {
+  color: var(--navyblue, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+span {
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.info-page {
+  color: var(--navyblue, #2e2f42);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.info-contact {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+/* Hero section */
+.hero {
+  background: var(--navyblue, #2e2f42);
+}
+.hero-text {
+  color: var(--white, #fff);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.hero-button {
+  background: var(--iris, #4d5ae5);
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+/* Footer */
