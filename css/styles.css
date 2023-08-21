@@ -7,7 +7,7 @@
 /* Base styles */
 body {
   font-family: var(--main-font);
-  color: var(--main-bg-cl);
+  color: var(--main-color);
   background: var(--main-bg-cl);
 }
 a {
@@ -97,6 +97,7 @@ button {
 }
 
 .info-contact {
+  color: var(--slate, #434455);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
