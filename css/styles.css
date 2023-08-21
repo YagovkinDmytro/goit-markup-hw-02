@@ -1,8 +1,14 @@
+:root {
+  /* Fonts */
+  --main-font: "Roboto", sans-serif;
+  --main-color: #434455;
+  --main-bg-cl: #fff;
+}
 /* Base styles */
 body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background: #fff;
+  font-family: var(--main-font);
+  color: var(--main-bg-cl);
+  background: var(--main-bg-cl);
 }
 a {
   color: currentColor;
@@ -125,3 +131,6 @@ button {
 }
 
 /* Footer */
+.footer {
+  background-color: var(--navyblue, #2e2f42);
+}
