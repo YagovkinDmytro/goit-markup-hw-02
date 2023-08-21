@@ -27,25 +27,22 @@ h3 {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
-
 /* Top Line */
-
+/* LOGO */
 .info-logo {
-  color: var(--navyblue, #2e2f42);
   font-family: Raleway;
   font-size: 18px;
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-span {
+.logo-first-part {
   color: var(--iris, #4d5ae5);
-  font-family: Raleway;
-  font-size: 18px;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
+.logo-first-second {
+  color: var(--navyblue, #2e2f42);
+}
+/* Nav */
 .info-page {
   color: var(--navyblue, #2e2f42);
   font-size: 16px;
