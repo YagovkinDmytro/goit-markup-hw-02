@@ -4,11 +4,6 @@ body {
   color: #434455;
   background: #fff;
 }
-button {
-  font-family: inherit;
-  color: currentColor;
-  cursor: pointer;
-}
 a {
   color: currentColor;
   text-decoration: none;
@@ -20,6 +15,11 @@ h1,
 h3 {
   color: var(--navyblue, #2e2f42);
 }
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
 .text {
   font-size: 16px;
   font-style: normal;
@@ -27,6 +27,25 @@ h3 {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
+
+/* Filter button */
+.button-filter {
+  color: var(--iris, #4d5ae5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+.button-filter-content:hover {
+  background: var(--ocean, #404bbf);
+  color: var(--white, #fff);
+}
+.button-filter-content:focus {
+  background: var(--cloud, #f4f4fd);
+  color: var(--iris, #4d5ae5);
+}
+
 /* Top Line */
 /* LOGO */
 .info-logo {
@@ -51,6 +70,25 @@ h3 {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
+.info-page-main:hover,
+.info-page-main:focus,
+.info-page-main:active {
+  color: var(--ocean, #404bbf);
+  text-decoration: underline;
+}
+.info-page-portfolio:hover,
+.info-page-portfolio:focus,
+.info-page-portfolio:active {
+  color: var(--ocean, #404bbf);
+  text-decoration: underline;
+}
+.info-page-contacts:hover,
+.info-page-contacts:focus,
+.info-page-contacts:active {
+  color: var(--ocean, #404bbf);
+  text-decoration: underline;
+}
+
 .info-contact {
   font-size: 16px;
   font-style: normal;
@@ -58,6 +96,12 @@ h3 {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
+[href="mailto:info@devstudio.com"]:hover,
+[href="mailto:info@devstudio.com"]:focus,
+[href="mailto:info@devstudio.com"]:active {
+  color: var(--ocean, #404bbf);
+}
+
 /* Hero section */
 .hero {
   background: var(--navyblue, #2e2f42);
