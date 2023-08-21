@@ -16,7 +16,9 @@ ul {
 .link {
   text-decoration: none;
 }
-
+.list {
+  list-style: none;
+}
 h1,
 h2,
 h3 {
@@ -69,10 +71,14 @@ button {
 }
 .logo-part-footer {
   color: var(--cloud, #f4f4fd);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* Nav */
 .info-page {
   color: var(--navyblue, #2e2f42);
+}
+.info-page-studio {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
