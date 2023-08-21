@@ -10,17 +10,14 @@ body {
   color: var(--main-color);
   background: var(--main-bg-cl);
 }
+
 .link {
   text-decoration: none;
-}
-.a {
-  color: currentColor;
-  text-decoration: none;
-}
-ul {
   list-style: none;
 }
+
 h1,
+h2,
 h3 {
   color: var(--navyblue, #2e2f42);
 }
@@ -81,9 +78,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.03em;
 }
-.info-page-main:hover,
-.info-page-main:focus,
-.info-page-main:active {
+.info-page-studio:hover,
+.info-page-studio:focus,
+.info-page-studio:active {
   color: var(--ocean, #404bbf);
   text-decoration: underline;
 }
@@ -107,11 +104,6 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.03em;
-}
-[href="mailto:info@devstudio.com"]:hover,
-[href="mailto:info@devstudio.com"]:focus,
-[href="mailto:info@devstudio.com"]:active {
-  color: var(--ocean, #404bbf);
 }
 
 /* Hero section */
