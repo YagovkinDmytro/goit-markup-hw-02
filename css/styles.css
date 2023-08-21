@@ -54,18 +54,16 @@ button {
 
 /* Top Line */
 /* LOGO */
-.info-logo {
-  font-family: Raleway;
+.logo-link {
+  color: var(--iris, #4d5ae5);
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-first-part {
-  color: var(--iris, #4d5ae5);
-}
-.logo-first-second {
+.logo-part {
   color: var(--navyblue, #2e2f42);
 }
 /* Nav */
