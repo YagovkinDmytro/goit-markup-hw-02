@@ -16,6 +16,7 @@ ul {
 }
 .link {
   text-decoration: none;
+  list-style: none;
 }
 .list {
   list-style: none;
@@ -128,8 +129,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.info-contact:hover,
-.info-contact:focus,
+.info-contacts:hover,
+.info-contacts:focus,
 .info-contact:active {
   color: var(--ocean, #404bbf);
 }
