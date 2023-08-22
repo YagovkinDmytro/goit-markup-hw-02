@@ -36,25 +36,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-/* Filter button */
-.button-filter {
-  color: var(--iris, #4d5ae5);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-.button-filter-content:hover {
-  background-color: var(--ocean, #404bbf);
-  color: var(--white, #fff);
-}
-.button-filter-content:focus {
-  background-color: var(--cloud, #f4f4fd);
-  color: var(--iris, #4d5ae5);
-}
-
 /* Top Line */
 /* LOGO */
 .logo-link {
@@ -178,6 +159,24 @@ button {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.2em;
+}
+/* Filter button */
+.button-filter {
+  font-family: var(--main-font);
+  color: var(--iris, #4d5ae5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button-filter-content:hover {
+  background-color: var(--ocean, #404bbf);
+  color: var(--white, #fff);
+}
+.button-filter-content:focus {
+  background-color: var(--cloud, #f4f4fd);
+  color: var(--iris, #4d5ae5);
 }
 /* Footer */
 .footer {
