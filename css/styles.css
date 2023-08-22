@@ -9,10 +9,7 @@
 body {
   font-family: var(--main-font);
   color: var(--main-color);
-  background: var(--main-bg-cl);
-}
-ul {
-  list-style: none;
+  background-color: var(--main-bg-cl);
 }
 .link {
   text-decoration: none;
@@ -37,7 +34,7 @@ button {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 
 /* Filter button */
@@ -50,11 +47,11 @@ button {
   letter-spacing: 0.04em;
 }
 .button-filter-content:hover {
-  background: var(--ocean, #404bbf);
+  background-color: var(--ocean, #404bbf);
   color: var(--white, #fff);
 }
 .button-filter-content:focus {
-  background: var(--cloud, #f4f4fd);
+  background-color: var(--cloud, #f4f4fd);
   color: var(--iris, #4d5ae5);
 }
 
@@ -108,7 +105,7 @@ button {
 
 /* Hero section */
 .hero {
-  background: var(--navyblue, #2e2f42);
+  background-color: var(--navyblue, #2e2f42);
 }
 .hero-text {
   color: var(--white, #fff);
@@ -116,16 +113,21 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
 }
 .hero-button {
-  background: var(--iris, #4d5ae5);
+  background-color: var(--iris, #4d5ae5);
   color: var(--white, #fff);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 /* Main section 1 */
 .benefits-title-point {
@@ -133,7 +135,7 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 
 /* Main section 2 */
@@ -142,24 +144,31 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 /* Main section 3 */
+.team {
+  background-color: var(--cloud, #f4f4fd);
+}
 .team-title {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+.picture-layer {
+  background-color: var(--white, #fff);
 }
 .team-title-name {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 /* Portfolio section */
 .portfolio-title {
@@ -175,4 +184,8 @@ button {
 }
 .text-footer {
   color: var(--cloud, #f4f4fd);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
