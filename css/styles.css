@@ -129,8 +129,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.info-contacts:hover,
-.info-contacts:focus,
+.info-contact:hover,
+.info-contact:focus,
 .info-contact:active {
   color: var(--ocean, #404bbf);
 }
