@@ -78,7 +78,7 @@ button {
   letter-spacing: 0.02em;
 }
 /* Nav */
-.info-page-studio {
+.info-page {
   color: var(--main-cl-link);
   font-size: 16px;
   font-style: normal;
@@ -86,41 +86,12 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.info-page-studio:hover,
-.info-page-studio:focus,
-.info-page-studio:active {
+.info-page:hover,
+.info-page:focus,
+.info-page:active {
   color: var(--ocean, #404bbf);
   text-decoration: underline;
 }
-.info-page-portfolio {
-  color: var(--main-cl-link);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.info-page-portfolio:hover,
-.info-page-portfolio:focus,
-.info-page-portfolio:active {
-  color: var(--ocean, #404bbf);
-  text-decoration: underline;
-}
-.info-page-contacts {
-  color: var(--main-cl-link);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.info-page-contacts:hover,
-.info-page-contacts:focus,
-.info-page-contacts:active {
-  color: var(--ocean, #404bbf);
-  text-decoration: underline;
-}
-
 .info-contact {
   color: var(--slate, #434455);
   font-size: 16px;
